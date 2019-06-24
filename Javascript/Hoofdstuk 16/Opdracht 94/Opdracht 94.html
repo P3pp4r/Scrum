@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 94</title>
+</head>
+    <body>
+        <script>
+            //promptscreen die je aantal laat aangeven
+            var lengte = parseInt(prompt('Voer een getal in:'));
+            piramide = new Array(lengte);
+            //For loop wie de array displayed
+            for(var i = 0; i <=lengte; i++){
+                piramide[i] = i;
+            }
+            document.write(piramide);
+            //For loop wie oplopend de piramide laat zien
+            for(var rij=1; rij <= lengte; rij++){
+                document.write('<br>');
+                for (var i = 0; i <rij; i++) {
+                    document.write(piramide[i]);
+                }
+            }
+        </script>
+    </body>
+</html>

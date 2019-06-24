@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 14</title>
+    <!-- Het doel hier is om een Random 5 letterreeks te genereren -->
+</head>
+    <body>
+        <script>
+            //Ik maak hier eerst een Array met daarin alle letters van het alfabet.
+            var mijnArray= new Array("a","b","c","d","e","f","g","h","i",
+                "j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z");
+            //Een for loop die zichzelf 5 keer herhaalt x wordt bij elke herhaling 1 bij x opgeteld.
+            for(x=0; x < 5; x++){
+                /*Met mijnArray[x] roep ik de array mijnArray aan en de x hier staat ook in de for loop dus op elk punt
+                van x wordt een random letter gezet. Dit doe ik met Math.random die wordt afgerond door Math.floor.
+                Alleen geeft alleen deze functie een getal terug, dus vermenigvuldig ik het met mijnArray.length zodat
+                Math random een index uit mijnArray pakt.
+                 */
+                mijnArray[x] = mijnArray[Math.floor(Math.random() *mijnArray.length)];
+                //Schrijft elke gegenereerde letter uit.
+                document.write(mijnArray[x]);
+            }
+        </script>
+    </body>
+</html>

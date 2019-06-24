@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weekdagen2.0</title>
+</head>
+    <body>
+        <script>
+            var dag = new Array();
+            dag[0] = "zondag";
+            dag[1] = "maandag";
+            dag[2] = "dinsdag";
+            dag[3] = "woensdag";
+            dag[4] = "donderdag";
+            dag[5] = "vrijdag";
+            dag[6] = "zaterdag";
+
+            datum = new Date();
+            vandaag = datum.getDay();
+
+            /*het ligt hier heel erg in de document.Write bij het gedeelte dag[vandaag]
+            Met die tussenhaakjes vandaag gaat hij kijken met getDay welke dag het vandaag is
+            op basis hiervan koppelt hij het terug in de array?
+            Heel simpel. Getday gaat ervan uit dat zondag 0 is maandag 1 etc.
+            Je hebt een array gemaakt die begint met zondag. dus de functie getDay kijkt welk getal binnen de array overeen
+            komt met dinsdag in getDay is dinsdag 2 dus hij zal binnen de array: dag nummer 2 selecteren.
+            morgen is het woensdag dus zal getday naar dag 3 gaan en woensdag uitgeven (tenzij je woensdag aanpast naar donderdag ofzo.*/
+            document.write("Het is vandaag: " +dag[vandaag]+ "<br>");
+
+        </script>
+    </body>
+</html>

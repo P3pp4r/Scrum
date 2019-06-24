@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Getallen</title>
+</head>
+    <body>
+        <script>
+            //Deze functie maakt een array op basis van de invoer.
+            /*De for loop zorgt ervoor dat je een array kan invoeren op basis
+            van je invoer bij de eerste prompt.*/
+            var counter = prompt('Hoeveel getallen wil je optellen?');
+            var som = new Array();
+            for(var i=0; i<counter; ++i) {
+                var getal = prompt('Vul een getal in');
+                som.push(getal);
+            }
+            //De line hieronder geeft de uitvoer
+            document.write(som +"<br>");
+            function berekenSom(total, num){
+                return total + Math.round(num);
+            }
+            var somBerekend = som.reduce(berekenSom, 0);
+            document.write(somBerekend);
+        </script>
+    </body>
+</html>

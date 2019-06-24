@@ -1,0 +1,8 @@
+Datatypen:
+
+Het datatype string:
+Strings zijn tekenreeksen, Een string geef je aan tussen aanhalingstekens ("").
+De meeste informatie in databases of web-applicaties bestaat in de vorm van teksten.
+
+Met de operator punt(.) kun je twee tekstelementen samenvoegen. Bijvoorbeeld:
+"boek"."titel" geeft als resultaat "boektitel:

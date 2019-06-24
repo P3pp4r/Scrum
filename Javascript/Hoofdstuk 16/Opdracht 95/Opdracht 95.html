@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 95</title>
+</head>
+    <body>
+        <script>
+            //promptscreen die je aantal laat aangeven
+            var lengte = parseInt(prompt('Voer een getal in:'));
+            piramide = new Array(lengte);
+            //For loop wie de array displayed
+            for(var i = 0; i <=lengte; i++){
+                piramide[i] = i;
+            }
+            document.write(piramide);
+            //For loop wie aflopend de piramide laat zien
+            for(var rij=10; rij >= (lengte-10); rij--){
+                document.write('<br>');
+                //for loop wie de getallen oplopend displayed
+                for (var i = 0; i <rij; i++) {
+                    document.write(piramide[i]);
+                }
+            }
+        </script>
+    </body>
+</html>

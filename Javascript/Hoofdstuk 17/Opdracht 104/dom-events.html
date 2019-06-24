@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM events</title>
+    <script src="dom-events.js"></script>
+    <script>
+        document.write('<form name="klok"> ' + '<input type="text" ' +
+        'name="display" ' + 'size="8" ' +
+        'style="background-color: #30CE28; font-size: 44px" >' +'</form>');
+        var nu = new Date();
+        var uur = nu.getHours();
+        var min = nu.getMinutes();
+        var sec = nu.getSeconds();
+        var alterneren = 0;
+        function showklok() {
+            min=((min <10) ? '0': '') + min;
+            sec=((sec <10) ? '0': '') + sec;
+            if(alterneren){
+                document.klok.display.value=uur + ':' + min + ':' + sec;
+                alterneren = 0;
+            }
+            else {
+                document.klok.display.value=uur + ':' + min + ':' + sec;
+                alterneren = 1;
+            }
+            nu = new Date(); uur = nu.getHours(); min = nu.getMinutes(); sec = nu.getSeconds();
+            setTimeout('showklok()', 1000);
+        }
+    </script>
+</head>
+    <body onload="showklok();">
+    <form name="bestelformulier" action="" method="post">
+        <div class="gegevens">
+            <label for="Man">Man:</label>
+            <input type="radio" name="geslacht" id="man" value="m"
+                   onchange="if(document.custform.man.checked == true){
+                    alert('Welkom meneer!');
+                   }">
+            <label for="Vrouw">Vrouw:</label>
+            <input type="radio" name="geslacht" id="vrouw" value="v"
+                   onchange="if(document.custform.vrouw.checked == true){
+                    alert('Welkom mevrouw!');
+                   }">
+            <br>
+            <input id="voornaam" type="text" name="voornaam" value="" placeholder="vul uw voornaam in">
+            <br>
+            <input id="achternaam" type="text" name="achternaam" value="" placeholder="vul uw achternaam in">
+            <br>
+            <input id="leeftijd" required type="text" name="leeftijd" value="" placeholder="vul uw leeftijd in"
+                onchange="if(leeftijd <18){
+                        alert('Je bent leerplichtig');
+                   }">
+            <br>
+            <input id="woonplaats" type="text" name="woonplaats" value="" placeholder="vul uw woonplaats in">
+            <br>
+            <input id="postcode" type="text" name="postcode" value="" placeholder="vul uw postcode in">
+            <br>
+            <input id="email" type="email" name="e-mailadres" value="" placeholder="vul uw email in">
+            <br>
+            <input id="telefoon" type="tel" name="telefoon" value="" placeholder="vul uw 06 in">
+            <br>
+            <input id="wachtwoord" type="password" name="wachtwoord" value="" placeholder="vul uw wachtwoord in"
+                   minlength="8" required>
+            <br>
+            <input id="bevestig_wachtwoord" type="password" name="bevestig_wachtwoord" value="" placeholder="wachtwoord nogmaals"
+                   minlength="8" required>
+            <br>
+            Smartphone: <input id="smartphone" type="checkbox" name="smartphone">
+            <br>
+            Laptop: <input id="laptop" type="checkbox" name="laptop">
+            <br>
+            Tablet: <input id="tablet" type="checkbox" name="tablet">
+            <br>
+            <select id="maand" name="maand" placeholder="maand">
+                <option value="0">Zondag</option>
+            </select>
+            <br>
+            <button id="submit" type="submit" name="submit" value="verzenden"></button>
+        </div>
+
+    </form>
+        <div>
+            <a href="Javascript: showMedia();">
+                <img src=ipad.JPG id="media"
+                     onmouseover="this.width=this.width*1.5"
+                     onmouseout="this.width=this.width/1.5">
+            </a>
+        </div>
+
+    </body>
+</html>

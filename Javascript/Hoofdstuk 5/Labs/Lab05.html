@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab05</title>
+</head>
+    <body>
+        <script>
+
+            einddatum = prompt("Wat is de einddatum JJJJ-MM-DD?")
+            var deadline = new Date(einddatum);
+            document.write(deadline);
+            var nu = Date.now();
+            var dag = 86400000;
+            var dagen = ((deadline - nu) / dag);
+            document.write("<br>Er zijn nog: " + dagen.toFixed(0) + " dagen te gaan!" );
+        </script>
+    </body>
+</html>

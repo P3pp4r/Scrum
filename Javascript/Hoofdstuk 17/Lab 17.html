@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 17</title>
+</head>
+    <body>
+        <form name="custform" method="post" onsubmit="return(stedencheck(this));">
+            <div class="gegevens">
+                <input id="stad" required type="text" name="stad" placeholder="vul uw eerste gok in in">
+                <input type="submit" id="submit" name="submit" value="Verzenden">
+            </div>
+        </form>
+        <script>
+            var steden = new Array('amsterdam', 'barcelona', 'londen', 'parijs', 'berlijn', 'antwerpen', 'rome', 'madrid');
+            var antwoord = steden[Math.floor(Math.random() * steden.length)];
+            function stedencheck(thisForm){
+                gok = thisForm.stad.value;
+                correctantwoord = antwoord;
+
+                //var censor = b.replace(correctantwoord.charAt(j),"?");
+
+                if(gok == antwoord){
+                    alert('Dat antwoord is correct');
+                    return true;
+                }
+                else{
+                    for(var i = 0; i< gok.length; i++){
+                        var c = gok.charAt(i);
+                    }
+                    for(var j = 0; j< correctantwoord.length; j++){
+                        var b = correctantwoord.charAt(j);
+                    }
+                }
+
+            }
+        </script>
+    </body>
+</html>

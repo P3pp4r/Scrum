@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>voorwaardelijkeOperator</title>
+    </head>
+        <body>
+            <script>
+                var vraag = 'Kies een nummer tussen de 1 en 10';
+                var antwoord = Math.floor((Math.random() *10) + 1);
+                var goed = '<h2> Prima, ga zo door! </h2>';
+                var fout = '<h2> Jammer, volgende keer beter!</h2>';
+                var gegevenAntwoord = prompt(vraag, '');
+                if (gegevenAntwoord == antwoord){
+                    document.write(goed);
+                }
+                else{
+                    document.write(fout);
+                }
+            </script>
+        </body>
+</html>

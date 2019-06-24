@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 9</title>
+</head>
+    <body>
+        <script>
+            var login = prompt("Wat is je rol (student/admin)");
+            var code = prompt("Wat is je wachtwoord");
+                switch(login) {
+                    case 'admin':
+                        if (code =='admin'){
+                            document.write('welkom admin');
+                        }
+                        else {
+                            document.write("code ongeldig");
+                        }
+                        break;
+                    case 'student':
+                        if (code =='student') {
+                            document.write("welkom student");
+                        }
+                        else {
+                            document.write("code ongeldig");
+                        }
+                        break;
+                    default:
+                        document.write("rol ongeldig");
+                        break;
+                }
+        </script>
+    </body>
+</html>

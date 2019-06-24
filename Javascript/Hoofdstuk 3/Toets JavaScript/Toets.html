@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Toets</title>
+</head>
+<body>
+<main>
+
+        <fieldset>
+            <label>1.Coca-Cola€1.00</label><br>
+            <label>2.Fanta€1.00</label><br>
+            <label>3.Spa Blauw €1.00</label><br>
+            <label>4.Red Bull €1.50</label><br>
+            <legend>DRANKAUTOMAAT</legend>
+            <label>Keuze:</label>
+            <input required type="text" placeholder="Keuze" name="Keuze"
+                   id="Keuze" list="Keuze">
+            <datalist id="steden">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+            </datalist>
+            <br>
+            <label>Geld:</label>
+            <textarea placeholder="bedrag"></textarea><br>
+        </fieldset>
+        <input type="submit" id="OK?"
+               name="OK?" value="OK?">
+    </form>
+</main>
+<script>
+    var keuze1 = 1.00;
+    var keuze2 = 1.00;
+    var keuze3 = 0.75;
+    var keuze4 = 1.50;
+    var geld = prompt("Kan de volgende keer gelieve beter worden gespecificeerd over de toetsinhoud, HTML CSS Slaat me namelijk nu wel een beetje out of nowhere in het gezicht." +
+        " In de mail van roesink stond namelijk dat het enkel Javascript C# en database zou betreffen."  +
+        " Vul hier ja of nee in:  ", "");
+    document.write(geld +":" + " ik hoop in ieder geval nog bijles te kunnen krijgen over HTML CSS. Vriendelijke groet, Pepijn Hones");
+</script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta http-equiv="Content-Type"
+              content="text/html";
+              charset="UTF-8" />
+        <!-- Hier onder staat de stylesheet voor de gegenereerde maandnaam, alle dagen in de tabel en de weekdagnaam. -->
+        <style>
+            html{font-size: 1.0rem;}
+            #selmaand{font-size: 1.0rem;}
+            <!--De calenderbreedte -->
+            #calendar{
+                width: 100%;
+            }
+            #maandnaam{
+                width: 100%;
+                height: 40px;
+                font-size: 1.5rem;
+            }
+            #dag{
+                border: 1px solid;
+                width: 13%;
+                height: 60px;
+                float: left;
+                text-align: center;
+                font-size: 1.2rem;
+                background-color: aliceblue;
+            }
+            #weekdag{
+                float: left;
+                width: 13%;
+                height: 60px;
+                text-align: center;
+                font-size: 1.3rem;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Hier onder staat de form voor het selectiemenu welke maand en welk jaar je wilt selecteren met een button -->
+        <form name="form">
+            Selecteer maand:
+            <select id="maand" name="maand" placeholder="maand">
+                <option value="0">Januari</option>
+                <option value="1">Februari</option>
+                <option value="2">Maart</option>
+                <option value="3">April</option>
+                <option value="4">Mei</option>
+                <option value="5">Juni</option>
+                <option value="6">Juli</option>
+                <option value="7">Augustus</option>
+                <option value="8">September</option>
+                <option value="9">Oktober</option>
+                <option value="10">November</option>
+                <option value="11">December</option>
+            </select>
+            Selecteer jaar:
+            <select id="jaar" name="jaar" placeholder="jaar">
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+            </select>
+            <input type="button"
+                   name="verzend" value="Print Calendar" onclick="printCalendar();"/>
+        </form>
+        <div id="calendar"></div>
+
+        <script>
+            //Function onload: is een functie wie gewoon zorgt dat je de gegevens wie je doorgeeft in de form verifieërd
+            function onload(){
+                maand = document.getElementById("maand").value;
+                jaar = document.getElementById("jaar").value;
+            }
+            /*Function printCalendar werkt als volgt. eerst gaat het het jaar en de doorgegeven maand ophalen,
+            * Vervolgens gaat het twee nieuwe datum elementen creëeren de eerste drukt alles Tot en met dag 1 af,
+            * de tweede drukt alles na dag 1 af tot de laatste dag van de maand. daarom is na de eerste datum eersteweekdag
+             * en na de tweede datum laatstedag. vervolgens maken we een array aan voor de maand en zorgen we dat deze
+             * wordt gekoppeld aan de form invoer.
+             * Door middel van de datumelementen loopt de kalender precies goed met de huidige dag.*/
+            function printCalendar(){
+                var maand = parseInt(document.getElementById("maand").value);
+                var jaar = parseInt(document.getElementById("jaar").value);
+                var datum = new Date(jaar, maand, 1);
+                var eersteweekdag = datum.getDay();
+                var datum = new Date(jaar,maand + 1,0);
+                var laatstedag = datum.getDate();
+                var maandnaam = new Array();
+                maandnaam[0] = "Januari";
+                maandnaam[1] = "Februari";
+                maandnaam[2] = "Maart";
+                maandnaam[3] = "April";
+                maandnaam[4] = "Mei";
+                maandnaam[5] = "Juni";
+                maandnaam[6] = "Juli";
+                maandnaam[7] = "Augustus";
+                maandnaam[8] = "September";
+                maandnaam[9] = "October";
+                maandnaam[10] = "November";
+                maandnaam[11] = "December";
+                var weekdag = new Array();
+                weekdag[0] = "zo";
+                weekdag[1] = "ma";
+                weekdag[2] = "di";
+                weekdag[3] = "wo";
+                weekdag[4] = "do";
+                weekdag[5] = "vr";
+                weekdag[6] = "za";
+                /* de 3 for loops, De eerste drukt de rijen per 7 dagen af beginnend bij zondag eindigend bij maandag.
+                * De tweede for loop drukt alle dagen voor de eerste weekdag af + de eerste weekdag.
+                * De derde for loop drukt alle dagen tot het eind van de maand af. */
+                calendar = "<div id='maandnaam'>"+maandnaam[maand]+" "+jaar+ "</div>";
+                for(x=0; x<7; x++){
+                    calendar += "<div id='weekdag'>" +weekdag[x]+"</div>";
+                }
+                calendar += "<br>";
+                for(x=1; x<=eersteweekdag; x++){
+                    calendar += "<div id='dag'>&nbsp;</div>";
+                }
+                for(x=1; x<=laatstedag; x++){
+                    calendar += "<div id='dag'>" +x+"</div>";
+                }
+                document.getElementById('calendar').innerHTML = calendar;
+            }
+        </script>
+    </body>
+</html>

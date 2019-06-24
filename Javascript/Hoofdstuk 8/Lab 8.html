@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 8</title>
+</head>
+    <body>
+        <script>
+            //Note voor jezelf Pepijn. Besef dat een min som in datums altijd het resultaat in miliseconden teruggeeft!
+            var vandaag = new Date();
+            document.write("<br>Vandaag is: " + vandaag);
+            var factuur = new Date(2019,02,04);
+            document.write("<br>Factuurdatum is: " + factuur);
+            var dertigDag = 86400000 * 30;
+            var dag = 86400000;
+            var termijn = new Date(dertigDag);
+            var betaaltijd = (factuur.getTime() + termijn.getTime());
+            var betaaldatum = new Date(betaaltijd);
+            document.write("<br>Betaaldatum is: " + betaaldatum);
+            if (vandaag === betaaldatum){
+                document.write("<br>Meld incassobureau");
+            }
+            else {
+                var tijd = (betaaldatum - vandaag) / dag;
+
+                document.write("<br>U hebt nog: " + tijd.toFixed(0) + " dagen om te betalen.")
+            }
+        </script>
+    </body>
+</html>

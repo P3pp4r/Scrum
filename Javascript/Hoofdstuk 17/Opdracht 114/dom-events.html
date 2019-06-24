@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM events</title>
+    <script src="dom-events.js"></script>
+    <script>
+        document.write('<form name="klok"> ' + '<input type="text" ' +
+        'name="display" ' + 'size="8" ' +
+        'style="background-color: #30CE28; font-size: 44px" >' +'</form>');
+        var nu = new Date();
+        var uur = nu.getHours();
+        var min = nu.getMinutes();
+        var sec = nu.getSeconds();
+        var alterneren = 0;
+        function showklok() {
+            min=((min <10) ? '0': '') + min;
+            sec=((sec <10) ? '0': '') + sec;
+            if(alterneren){
+                document.klok.display.value=uur + ':' + min + ':' + sec;
+                alterneren = 0;
+            }
+            else {
+                document.klok.display.value=uur + ':' + min + ':' + sec;
+                alterneren = 1;
+            }
+            nu = new Date(); uur = nu.getHours(); min = nu.getMinutes(); sec = nu.getSeconds();
+            setTimeout('showklok()', 1000);
+        }
+    </script>
+</head>
+    <body onload="showklok();">
+    <form action="mailto: pepijnhones@hotmail.nl" name="custform" method="post" onsubmit="return(formcheck(this));">
+        <div class="gegevens">
+            <label for="Man">Man:</label>
+            <input type="radio" name="geslacht" id="man" value="m"
+                   onchange="if(document.custform.man.checked == true){
+                    alert('Welkom meneer!');
+                   }">
+            <label for="Vrouw">Vrouw:</label>
+            <input type="radio" name="geslacht" id="vrouw" value="v"
+                   onchange="if(document.custform.vrouw.checked == true){
+                    alert('Welkom mevrouw!');
+                   }">
+            <br>
+            <input id="voornaam" type="text" name="voornaam" value="" placeholder="vul uw voornaam in">
+            <br>
+            <input id="achternaam" type="text" name="achternaam" value="" placeholder="vul uw achternaam in">
+            <br>
+            <input id="leeftijd" required type="text" name="leeftijd" value="" placeholder="vul uw leeftijd in"
+                onchange="
+                    if(leeftijd <18){
+                        alert('Je bent leerplichtig');
+                   }
+                    else if(leeftijd > 55){
+                        alert('Kijk naar onze seniorenprogrammas!');
+                   }">
+            <br>
+            <input id="woonplaats" type="text" name="woonplaats" value="" placeholder="vul uw woonplaats in">
+            <br>
+            <input id="postcode" type="text" name="postcode" value="" placeholder="vul uw postcode in">
+            <br>
+            <input id="email" type="email" name="e-mailadres" value="" placeholder="vul uw email in">
+            <br>
+            <input id="telefoon" type="tel" name="telefoon" value="" placeholder="vul uw 06 in">
+            <br>
+            <input required type="password" id="wachtwoord" placeholder="vul uw wachtwoord in"
+                   onkeyup="herhalen()"
+                   minlength="8" >
+            <br>
+            <input id="wachtwoord2" type="password" name="wachtwoord2" value="" placeholder="wachtwoord nogmaals"
+                   minlength="8" required>
+            <br>
+            Smartphone: <input type="checkbox"
+                               name="gadget"
+                               id="smartphone"
+                               value="s"
+                               onchange="
+                   if(document.custform.gadget[0].checked){
+                       alert('Smartphone besteld!');
+                   }">
+            <br>
+            Laptop: <input type="checkbox"
+                           name="gadget"
+                           id="laptop"
+                           value="l"
+                           onchange="
+                   if(document.custform.gadget[1].checked){
+                       alert('Laptop besteld!');
+                   }">
+            <br>
+            Tablet: <input type="checkbox"
+                           name="gadget"
+                           id="tablet"
+                           value="t"
+                           onchange="
+                   if(document.custform.gadget[2].checked){
+                       alert('Tablet besteld!');
+                   }">
+            <br>
+            <select onchange="
+               if(document.custform.bezorging.value == 'express') {
+                    getElementById('expres-info').style.display='block';
+                    getElementById('dag-info').style.display='none';
+                    getElementById('week-info').style.display='none';
+               }
+               else if(document.custform.bezorging.value == 'dag'){
+                    getElementById('expres-info').style.display='none';
+                    getElementById('dag-info').style.display='block';
+                    getElementById('week-info').style.display='none';
+               }
+               else if(document.custform.bezorging.value == 'week'){
+                    getElementById('expres-info').style.display='none';
+                    getElementById('dag-info').style.display='none';
+                    getElementById('week-info').style.display='block';
+               }" name="bezorging">
+                <option value="express">Express</option>
+                <option value="dag">Dag</option>
+                <option value="week">Week</option>
+            </select>
+            <br>
+            <input type="submit" id="submit" name="submit" value="Verzenden"
+            onmouseover="style.color='green'"
+            onmouseout="style.color='black'"></button>
+        </div>
+        <br>
+        <div id="express-info" style="display:none">Express bestelling</div>
+        <div id="dag-info" style="display:none">Dag bestelling</div>
+        <div id="week-info" style="display:none">Week bestelling</div>
+        <br>
+    </form>
+        <div>
+            <a href="Javascript: showMedia();">
+                <img src=ipad.JPG id="media"
+                     onmouseover="this.width=this.width*1.5"
+                     onmouseout="this.width=this.width/1.5">
+            </a>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+<script>
+    var character;
+    var index = 0;
+    var string1 = '1,2,3,4,5,6,8,9,0#';
+    var string2 = '1,2,3#';
+
+    do{
+        character = string1.charAt(index);
+        document.write(character);
+        index++
+    }while (character != '#');
+    document.write('<br><br>');
+
+    index = 0;
+    do{
+        character = string2.charAt(index);
+        document.write(character);
+        index++
+    }while (character != '#');
+</script>
+</body>
+</html>

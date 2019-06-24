@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="397a6b2f-64d8-474f-834f-0f6f2b07c4fe" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Huiswerk PHP" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Lab 19.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 19/Lab 19.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="39" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>D:\XAMPP\htdocs\Huiswerk PHP\Opdrachten\Labs</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab08.verwerken.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab1.08.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 31/stringmethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 32/stringmethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 33/stringmethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 34/stringmethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 35/stringmethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 36/stringmethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 37/stringmethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 38/stringmethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 39/stringmethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 40/stringmethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 41/stringmethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 42/stringmethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Winkelmandje.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 43/Winkelmandje.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab1.09.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab1.07.php" />
+        <option value="$USER_HOME$/Desktop/Huiswerk/Huiswerk Javascript/Huiswerk/Hoofdstuk 15/lab15.html" />
+        <option value="$USER_HOME$/Desktop/Huiswerk/Huiswerk Javascript/Huiswerk/Hoofdstuk 15/Lab15(Prototype).html" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab1.10.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht44/switch.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab1.11.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht45/maxgetal.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab1.12.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab1.13.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab 13/Externe_functions.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab 13/Lab1.13.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 46/for_lus.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 47/for_lus.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab 14/Lab1.13.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab 17/Lab 17.php" />
+        <option value="$USER_HOME$/Downloads/lab1.15.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab 15/Lab1.13.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab 15/Externe_functions.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab 16/Externe_functions.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab 16/Lab1.13.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 51/globals.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 52/globals.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 53/globals.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 54/globals.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab 18/Lab 18.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab 12/Lab1.12.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 55/datemethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 56/datemethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 57/datemethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 58/datemethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 59/datemethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 60/datemethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Opdracht 61/datemethodes.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/Labs/Lab 19/Lab 19.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="950" />
+    <option name="width" value="977" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Huiswerk PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Huiswerk PHP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Huiswerk PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Huiswerk PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Opdrachten" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Huiswerk PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Huiswerk PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Opdrachten" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Huiswerk PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Huiswerk PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Opdrachten" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab 19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Huiswerk PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Huiswerk PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Opdrachten" type="462c0819:PsiDirectoryNode" />
+              <item name="Opdracht 61" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Huiswerk PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\Huiswerk PHP\Opdrachten\Labs\Lab 19" />
+      <recent name="D:\XAMPP\htdocs\Huiswerk PHP\Opdrachten" />
+      <recent name="D:\XAMPP\htdocs\Huiswerk PHP\Opdrachten\Labs\Lab 18" />
+      <recent name="D:\XAMPP\htdocs\Huiswerk PHP\Opdrachten\Labs" />
+      <recent name="C:\Users\pepij\Desktop\Huiswerk\Huiswerk Javascript\Huiswerk\Hoofdstuk 15" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\Huiswerk PHP\Opdrachten" />
+      <recent name="D:\XAMPP\htdocs\Huiswerk PHP\Opdrachten\Labs\Extra Opdrachten" />
+      <recent name="D:\XAMPP\htdocs\Huiswerk PHP\Opdrachten\Labs\Lab 13" />
+      <recent name="D:\XAMPP\htdocs\Huiswerk PHP\Opdrachten\Labs\Lab 12" />
+      <recent name="D:\XAMPP\htdocs\Huiswerk PHP\Opdrachten\Labs\Lab 11" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="397a6b2f-64d8-474f-834f-0f6f2b07c4fe" name="Default" comment="" />
+      <created>1552479520754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552479520754</updated>
+      <workItem from="1552479522363" duration="4059000" />
+      <workItem from="1552561703757" duration="29547000" />
+      <workItem from="1553166170729" duration="10660000" />
+      <workItem from="1553240358093" duration="616000" />
+      <workItem from="1554201096019" duration="718000" />
+      <workItem from="1554204421421" duration="28321000" />
+      <workItem from="1554887762014" duration="2009000" />
+      <workItem from="1554976562971" duration="7118000" />
+      <workItem from="1555409792282" duration="1441000" />
+      <workItem from="1557125627737" duration="7997000" />
+      <workItem from="1557298963129" duration="48000" />
+      <workItem from="1557397554743" duration="323000" />
+      <workItem from="1558433748631" duration="5949000" />
+      <workItem from="1558446911108" duration="5343000" />
+      <workItem from="1558511470557" duration="10396000" />
+      <workItem from="1558940697531" duration="788000" />
+      <workItem from="1559120654260" duration="129000" />
+      <workItem from="1559821276939" duration="8833000" />
+      <workItem from="1560859339290" duration="2147000" />
+      <workItem from="1561103463194" duration="3580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="130022000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="767" y="0" width="788" height="838" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8786207" visible="true" weight="0.249354" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" sideWeight="0.12137931" side_tool="true" visible="true" weight="0.249354" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 41/stringmethodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Huiswerk/Huiswerk Javascript/Huiswerk/Hoofdstuk 11/Lab 11/For-lus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Huiswerk/Huiswerk Javascript/Huiswerk/Hoofdstuk 11/Opdracht 71/For-lus.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 42/stringmethodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="68" column="2" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Winkelmandje.php" />
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 43/Winkelmandje.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Huiswerk/Applicatie Ontwikkeling/Sprint 1/Opdracht 2.2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Huiswerk/Applicatie Ontwikkeling/Sprint 1/Opdracht 2.1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Huiswerk/Applicatie Ontwikkeling/Sprint 1/Materials/Materials.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="79" lean-forward="true" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Huiswerk/Huiswerk Javascript/Huiswerk/Hoofdstuk 2/Lab 2/Functies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Huiswerk/Huiswerk Javascript/Huiswerk/Hoofdstuk 15/lab15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="65" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/lab15.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Huiswerk/Huiswerk Javascript/Huiswerk/Hoofdstuk 15/Lab15(Prototype).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/labs/lab17.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht45/maxgetal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht44/switch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 46/for_lus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 47/for_lus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Huiswerk/Huiswerk Javascript/Huiswerk/Hoofdstuk 16/Lab 16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/externe_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-443">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/lab1.15.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 51/globals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 52/globals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 53/globals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 54/globals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 55/datemethodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 56/datemethodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 57/datemethodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="59" lean-forward="true" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 58/datemethodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 59/datemethodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 60/datemethodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Opdracht 61/datemethodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="36" column="77" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 1-10/Lab 7/Lab1.07.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Extra Opdrachten/Oneven.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Extra Opdrachten/Grolsch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 1-10/Lab 8/Lab1.08.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 1-10/Lab 9/Lab1.09.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 1-10/Lab 10/Lab1.10.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="60" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 11/Lab1.11.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="91" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 12/Lab1.12.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 13/Lab1.13.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="94" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 13/Externe_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 14/Externe_functions.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 15/Externe_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 14/Lab1.13.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="126" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 15/Lab1.13.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="127" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 17/Lab 17.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 16/Lab1.13.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="128" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 16/Externe_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 18/Lab 18.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/Labs/Lab 19/Lab 19.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="39" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

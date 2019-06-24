@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weekdagen</title>
+</head>
+    <body>
+        <script>
+            //We willen eerst de weekdagen in een array zetten
+            var weekdag = new Array();
+            weekdag[0] = "Maandag";
+            weekdag[1] = "Dinsdag";
+            weekdag[2] = "Woensdag";
+            weekdag[3] = "Donderdag";
+            weekdag[4] = "Vrijdag";
+            weekdag[5] = "Zaterdag";
+            weekdag[6] = "Zondag";
+
+            //We willen hier de huidige dag in een getal ophalen.
+            //Dit doen we door de date te converten met getDay.
+            var getDate = new Date();
+            var getDay = getDate.getDate();
+
+            //We willen hier het getal wat we boven hebben gekregen koppelen aan het juiste element in de array.
+            //Oftewel we moeten een formule hebben op basis van een basispunt die vanuit daar verder kijkt naar welke dag het is.
+            if( getDate = 'Tue'){
+                document.write('<br>Vandaag is het: ' + weekdag[1])
+            }
+            else if (getDate = 'Wed'){
+                document.write('<br>Vandaag is het: ' + weekdag[2])
+            }
+            else if (getDate = 'Thu'){
+                document.write('<br>Vandaag is het: ' + weekdag[3])
+            }
+            else if (getDate = 'Fri'){
+                document.write('<br>Vandaag is het: ' + weekdag[4])
+            }
+            else if (getDate = 'Sat'){
+                document.write('<br>Vandaag is het: ' + weekdag[5])
+            }
+            else if (getDate = 'Sun'){
+                document.write('<br>Vandaag is het: ' + weekdag[6])
+            }
+            else if (getDate = 'Mon'){
+                document.write('<br>Vandaag is het: ' + weekdag[0])
+            }
+
+            //Als we een if functie maken uitgaande van dat we vandaag als startpunt hebben die elke keer als de datum met een dag toeneemt.
+            //En vervolgens een dag uit de reeks naar links schuift en een nieuwe dag toevoegd op punt 6 (dus eigenlijk een repeatende loop).
+
+            //Hier willen we de output geven van het resultaat. (display de dag eerst)
+            //document.write('<br>Vandaag is het:' + getDate);
+            //document.write('<br>Vandaag is het: ' + getDay);
+        </script>
+    </body>
+</html>

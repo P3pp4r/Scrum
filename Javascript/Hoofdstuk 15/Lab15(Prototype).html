@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 15</title>
+</head>
+    <body>
+    <input id="document">
+    <input id="script">
+    <button type="button" onclick="vervangen()">Vervang</button>
+    <br>
+        <script>
+            tekst1 = 'Dit document is een lang document maar ook een simpel document';
+            document.write(tekst1);
+            function vervangen(tekst, woord, nieuwewoord){
+                tekst = tekst1;
+                woord = document.getElementById('document'); //hier wil ik graag een call naar input id document
+                nieuwewoord = document.getElementById('script'); //hier wil ik graag een call naar input id script
+                return tekst.replace(woord, nieuwewoord);
+            }
+            resultaat = vervangen(tekst,'document','script');
+            document.write(resultaat);
+        </script>
+    </body>
+</html>

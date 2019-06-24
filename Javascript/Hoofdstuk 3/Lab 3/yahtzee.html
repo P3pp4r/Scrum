@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yahtzee</title>
+</head>
+    <body>
+        <!--De button waarmee je je gegevens ophaalt.-->
+        <button onclick="dobbel()">Dobbel nu</button>
+        <script>
+            //De functie om te dobbelen met daarin de writelines.
+            /*Hier in zit een for loop met een counter zodat je
+            Meer dan 5 getallen als uitvoer kunt hebben voor allerlij dobbelsimulaties.*/
+            function dobbel(){
+            var counter = prompt('Hoeveel getallen wil je dobbelen?');
+            var som = new Array();
+            for(var i=0; i<counter; ++i) {
+                var getal = Math.floor((Math.random() * 6) + 1);
+
+                som.push(getal);
+            }
+            //De line hieronder geeft de uitvoer van de dobbels
+            document.write('je worpen zijn: ' + som);
+
+            //Hieronder de functie en uitvoer van de totaal berekening
+            var somBerekend = som.reduce(berekenSom, 0);
+            document.write("<br> het totaal gedobbeld is: " +somBerekend);
+            }
+
+            //De functie die zorgt dat alles goed bij elkaar opgeteld wordt
+            function berekenSom(total, num){
+                return total + Math.round(num);
+            }
+
+        </script>
+    </body>
+</html>

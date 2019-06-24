@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>De for-lus</title>
+    <!--Dit script: werkt met de for lus -->
+</head>
+    <body>
+        <script>
+            for (x = 0; x < 3; x++){
+                document.write('<br>Dit is lus: ' + x);
+            }
+                document.write('<br>');
+            var student = new Array('Zakaria','Albert','Hamsa','Mike','Pieter','Harry');
+            for(x = 0; x < student.length; x++){
+                document.write('<br>Element '+ x +' is '+ student[x]);
+            }
+                document.write('<br>');
+            for(x = 0; x < student.length; x++) {
+                if (x % 2 === 0) {
+                    document.write('<br>Element ' + x + ' is ' + student[x]);
+                }
+            }
+                document.write('<br>');
+            var tekst = 'Hij lijkt een beetje op Nelson Mandela.';
+            lengte = tekst.length;
+            tekenA = 0;
+            tekenE = 0;
+            tekenI = 0;
+            tekenO = 0;
+            tekenU = 0;
+            document.write('<br>');
+            for(x=0; x<lengte; x++) {
+                teken = tekst.charAt(x);
+                document.write(teken);
+                if(teken == 'a'){
+                    tekenA++;
+                }
+                else if(teken == 'e'){
+                    tekenE++;
+                }
+                else if(teken == 'i'){
+                    tekenI++;
+                }
+                else if(teken == 'o'){
+                    tekenO++;
+                }
+                else if(teken == 'u'){
+                    tekenU++;
+                }
+            }
+            document.write('<br>Aantal a\'s: ' +tekenA);
+            document.write('<br>Aantal e\'s: ' +tekenE);
+            document.write('<br>Aantal i\'s: ' +tekenI);
+            document.write('<br>Aantal o\'s: ' +tekenO);
+            document.write('<br>Aantal u\'s: ' +tekenU);
+
+        </script>
+    </body>
+</html>

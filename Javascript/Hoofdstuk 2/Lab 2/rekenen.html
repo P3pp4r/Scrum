@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+    <body>
+        <script>
+            var getal1 = prompt('Voer getal1 in: ','');
+            var getal2 = prompt('Voer getal2 in: ','');
+            var string = prompt('Voer plus, min, maal of delen in: ','');
+            var plus = 'plus';
+            var min = 'min';
+            var maal = 'maal';
+            var delen = 'delen';
+            if (string == plus) {
+                var optellen = parseInt(getal1) + parseInt(getal2);
+                document.write('Uw antwoord is: ' + optellen);
+            }
+            else if (string == min) {
+                var aftrekken = getal1 - getal2;
+                document.write('Uw antwoord is: ' + aftrekken);
+            }
+            else if (string == maal) {
+                var vermenigvuldigen = getal1 * getal2;
+                document.write('Uw antwoord is: ' + vermenigvuldigen);
+            }
+            else if (string == delen) {
+                var delendoor = getal1 / getal2;
+                document.write('Uw antwoord is: ' + delendoor);
+            }
+        </script>
+    </body>
+</html>
